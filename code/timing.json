@@ -1,0 +1,628 @@
+{
+ "rows": [
+  {
+   "setting": "iTrans. ETTh1",
+   "method": "COSA",
+   "ms": 34.32835820895522,
+   "raw": {
+    "context_generation_ms": [
+     0.06
+    ],
+    "adapter_forward_pass_ms": [
+     0.568
+    ],
+    "final_prediction_ms": [
+     0.516
+    ],
+    "total_adapter_operation_ms": [
+     1.144
+    ],
+    "loss_computation_ms": [
+     0.51
+    ],
+    "backward_update_ms": [
+     3.173
+    ],
+    "per_adaptation_step_ms": [
+     4.539
+    ],
+    "total_per_batch_ms": [
+     13.616
+    ],
+    "full_gt_adaptation_ms": [
+     13.489
+    ],
+    "full_gt_adaptation_count": [
+     129.0
+    ],
+    "partial_gt_adaptation_ms": [
+     13.738
+    ],
+    "partial_gt_adaptation_count": [
+     134.0
+    ],
+    "base_model_prediction_ms": [
+     3.41
+    ],
+    "buffer_update_ms": [
+     0.043
+    ],
+    "metric_computation_ms": [
+     0.249
+    ],
+    "paas_period_calculation_ms": [
+     1.362
+    ],
+    "total_time_seconds": [
+     4.6
+    ],
+    "avg_time_per_adaptation_ms": [
+     13.616
+    ],
+    "adaptation_count": [
+     789.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. ETTh1",
+   "method": "TAFAS",
+   "ms": 21.044776119402986,
+   "raw": {
+    "calibration_ms": [
+     0.151,
+     0.281
+    ],
+    "forward_pass_ms": [
+     3.372,
+     4.042
+    ],
+    "loss_computation_ms": [
+     0.054,
+     0.094
+    ],
+    "backward_update_ms": [
+     3.745,
+     3.687
+    ],
+    "per_step_total_ms": [
+     7.6,
+     8.213
+    ],
+    "total_per_batch_ms": [
+     7.65,
+     8.28
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "period_calculation_ms": [
+     1.439
+    ],
+    "prediction_adjustment_ms": [
+     3.152
+    ],
+    "metric_computation_ms": [
+     0.222
+    ],
+    "total_batch_processing_ms": [
+     20.545
+    ],
+    "total_time_seconds": [
+     2.82
+    ],
+    "avg_time_per_adaptation_ms": [
+     7.912
+    ],
+    "adaptation_count": [
+     263.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. ETTh1",
+   "method": "PETSA",
+   "ms": 26.567164179104477,
+   "raw": {
+    "lora_calibration_ms": [
+     0.222,
+     0.396
+    ],
+    "forward_pass_ms": [
+     3.318,
+     4.156
+    ],
+    "complex_loss_computation_ms": [
+     0.835,
+     1.057
+    ],
+    "backward_update_ms": [
+     4.635,
+     6.106
+    ],
+    "per_step_total_ms": [
+     9.237,
+     12.109
+    ],
+    "total_per_batch_ms": [
+     9.236,
+     12.268
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "fft_computation_ms": [
+     0.568
+    ],
+    "correlation_ms": [
+     0.473
+    ],
+    "kl_divergence_ms": [
+     0.378
+    ],
+    "huber_loss_ms": [
+     0.284
+    ],
+    "mean_loss_ms": [
+     0.189
+    ],
+    "period_calculation_ms": [
+     1.392
+    ],
+    "prediction_adjustment_ms": [
+     3.181
+    ],
+    "metric_computation_ms": [
+     0.231
+    ],
+    "total_batch_processing_ms": [
+     26.084
+    ],
+    "full_lora_ms": [
+     0.222
+    ],
+    "partial_lora_ms": [
+     0.396
+    ],
+    "total_time_seconds": [
+     3.56
+    ],
+    "avg_time_per_adaptation_ms": [
+     10.701
+    ],
+    "lora_flops_per_ms": [
+     41977.8
+    ],
+    "adaptation_count": [
+     263.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. ETTh1",
+   "method": "INFUSE-U",
+   "ms": 1.0133
+  },
+  {
+   "setting": "iTrans. ETTh1",
+   "method": "INFUSE",
+   "ms": 1.6323
+  },
+  {
+   "setting": "iTrans. Weather",
+   "method": "COSA",
+   "ms": 78.43537414965986,
+   "raw": {
+    "context_generation_ms": [
+     0.115
+    ],
+    "adapter_forward_pass_ms": [
+     1.349
+    ],
+    "final_prediction_ms": [
+     1.222
+    ],
+    "total_adapter_operation_ms": [
+     2.686
+    ],
+    "loss_computation_ms": [
+     1.313
+    ],
+    "backward_update_ms": [
+     7.786
+    ],
+    "per_adaptation_step_ms": [
+     10.825
+    ],
+    "total_per_batch_ms": [
+     32.476
+    ],
+    "full_gt_adaptation_ms": [
+     32.24
+    ],
+    "full_gt_adaptation_count": [
+     145.0
+    ],
+    "partial_gt_adaptation_ms": [
+     32.708
+    ],
+    "partial_gt_adaptation_count": [
+     147.0
+    ],
+    "base_model_prediction_ms": [
+     3.374
+    ],
+    "buffer_update_ms": [
+     1.793
+    ],
+    "metric_computation_ms": [
+     0.235
+    ],
+    "paas_period_calculation_ms": [
+     1.306
+    ],
+    "total_time_seconds": [
+     11.53
+    ],
+    "avg_time_per_adaptation_ms": [
+     32.476
+    ],
+    "adaptation_count": [
+     876.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. Weather",
+   "method": "TAFAS",
+   "ms": 26.462585034013607,
+   "raw": {
+    "calibration_ms": [
+     0.146,
+     0.284
+    ],
+    "forward_pass_ms": [
+     3.025,
+     3.637
+    ],
+    "loss_computation_ms": [
+     0.091,
+     0.085
+    ],
+    "backward_update_ms": [
+     3.743,
+     3.743
+    ],
+    "per_step_total_ms": [
+     7.265,
+     7.937
+    ],
+    "total_per_batch_ms": [
+     7.334,
+     8.025
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "period_calculation_ms": [
+     1.356
+    ],
+    "prediction_adjustment_ms": [
+     3.44
+    ],
+    "metric_computation_ms": [
+     3.881
+    ],
+    "total_batch_processing_ms": [
+     23.964
+    ],
+    "total_time_seconds": [
+     3.89
+    ],
+    "avg_time_per_adaptation_ms": [
+     7.603
+    ],
+    "adaptation_count": [
+     292.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. Weather",
+   "method": "PETSA",
+   "ms": 33.12925170068027,
+   "raw": {
+    "lora_calibration_ms": [
+     0.213,
+     0.291
+    ],
+    "forward_pass_ms": [
+     3.004,
+     4.01
+    ],
+    "complex_loss_computation_ms": [
+     1.702,
+     2.376
+    ],
+    "backward_update_ms": [
+     5.014,
+     6.605
+    ],
+    "per_step_total_ms": [
+     10.257,
+     13.718
+    ],
+    "total_per_batch_ms": [
+     10.312,
+     13.804
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "fft_computation_ms": [
+     1.224
+    ],
+    "correlation_ms": [
+     1.02
+    ],
+    "kl_divergence_ms": [
+     0.816
+    ],
+    "huber_loss_ms": [
+     0.612
+    ],
+    "mean_loss_ms": [
+     0.408
+    ],
+    "period_calculation_ms": [
+     1.368
+    ],
+    "prediction_adjustment_ms": [
+     3.64
+    ],
+    "metric_computation_ms": [
+     1.597
+    ],
+    "total_batch_processing_ms": [
+     30.616
+    ],
+    "full_lora_ms": [
+     0.213
+    ],
+    "partial_lora_ms": [
+     0.291
+    ],
+    "total_time_seconds": [
+     4.87
+    ],
+    "avg_time_per_adaptation_ms": [
+     11.999
+    ],
+    "lora_flops_per_ms": [
+     142252.1
+    ],
+    "adaptation_count": [
+     292.0
+    ]
+   }
+  },
+  {
+   "setting": "iTrans. Weather",
+   "method": "INFUSE-U",
+   "ms": 4.6331
+  },
+  {
+   "setting": "iTrans. Weather",
+   "method": "INFUSE",
+   "ms": 7.5463
+  },
+  {
+   "setting": "PatchTST ETTm1",
+   "method": "COSA",
+   "ms": 50.54054054054054,
+   "raw": {
+    "context_generation_ms": [
+     0.364
+    ],
+    "adapter_forward_pass_ms": [
+     0.554
+    ],
+    "final_prediction_ms": [
+     0.561
+    ],
+    "total_adapter_operation_ms": [
+     1.479
+    ],
+    "loss_computation_ms": [
+     0.508
+    ],
+    "backward_update_ms": [
+     3.022
+    ],
+    "per_adaptation_step_ms": [
+     4.396
+    ],
+    "total_per_batch_ms": [
+     13.191
+    ],
+    "full_gt_adaptation_ms": [
+     13.187
+    ],
+    "full_gt_adaptation_count": [
+     146.0
+    ],
+    "partial_gt_adaptation_ms": [
+     13.195
+    ],
+    "partial_gt_adaptation_count": [
+     148.0
+    ],
+    "base_model_prediction_ms": [
+     3.548
+    ],
+    "buffer_update_ms": [
+     13.984
+    ],
+    "metric_computation_ms": [
+     0.2
+    ],
+    "paas_period_calculation_ms": [
+     1.327
+    ],
+    "total_time_seconds": [
+     7.48
+    ],
+    "avg_time_per_adaptation_ms": [
+     13.191
+    ],
+    "adaptation_count": [
+     882.0
+    ]
+   }
+  },
+  {
+   "setting": "PatchTST ETTm1",
+   "method": "TAFAS",
+   "ms": 59.12162162162162,
+   "raw": {
+    "calibration_ms": [
+     0.078,
+     0.139
+    ],
+    "forward_pass_ms": [
+     2.811,
+     3.459
+    ],
+    "loss_computation_ms": [
+     0.028,
+     0.054
+    ],
+    "backward_update_ms": [
+     0.731,
+     0.758
+    ],
+    "per_step_total_ms": [
+     3.768,
+     4.298
+    ],
+    "total_per_batch_ms": [
+     3.767,
+     4.312
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "period_calculation_ms": [
+     1.259
+    ],
+    "prediction_adjustment_ms": [
+     3.348
+    ],
+    "metric_computation_ms": [
+     44.683
+    ],
+    "total_batch_processing_ms": [
+     57.417
+    ],
+    "total_time_seconds": [
+     8.75
+    ],
+    "avg_time_per_adaptation_ms": [
+     4.035
+    ],
+    "adaptation_count": [
+     294.0
+    ]
+   }
+  },
+  {
+   "setting": "PatchTST ETTm1",
+   "method": "PETSA",
+   "ms": 66.28378378378379,
+   "raw": {
+    "lora_calibration_ms": [
+     0.14,
+     0.176
+    ],
+    "forward_pass_ms": [
+     2.709,
+     3.781
+    ],
+    "complex_loss_computation_ms": [
+     16.262,
+     16.361
+    ],
+    "backward_update_ms": [
+     1.891,
+     3.106
+    ],
+    "per_step_total_ms": [
+     21.198,
+     23.473
+    ],
+    "total_per_batch_ms": [
+     21.101,
+     23.514
+    ],
+    "full_adaptation_count": [
+     1.0
+    ],
+    "fft_computation_ms": [
+     9.787
+    ],
+    "correlation_ms": [
+     8.156
+    ],
+    "kl_divergence_ms": [
+     6.525
+    ],
+    "huber_loss_ms": [
+     4.893
+    ],
+    "mean_loss_ms": [
+     3.262
+    ],
+    "period_calculation_ms": [
+     1.339
+    ],
+    "prediction_adjustment_ms": [
+     3.689
+    ],
+    "metric_computation_ms": [
+     15.054
+    ],
+    "total_batch_processing_ms": [
+     64.602
+    ],
+    "full_lora_ms": [
+     0.14
+    ],
+    "partial_lora_ms": [
+     0.176
+    ],
+    "total_time_seconds": [
+     9.81
+    ],
+    "avg_time_per_adaptation_ms": [
+     22.343
+    ],
+    "lora_flops_per_ms": [
+     20075.2
+    ],
+    "adaptation_count": [
+     294.0
+    ]
+   }
+  },
+  {
+   "setting": "PatchTST ETTm1",
+   "method": "INFUSE-U",
+   "ms": 5.5182
+  },
+  {
+   "setting": "PatchTST ETTm1",
+   "method": "INFUSE",
+   "ms": 8.9912
+  }
+ ]
+}

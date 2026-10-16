@@ -1,0 +1,8 @@
+iTransformer,weather,96,0,DADAPTER,0.159678,0.211014,2954
+iTransformer,exchange_rate,96,0,DADAPTER,0.107566,0.241292,361
+iTransformer,weather,192,0,DADAPTER,0.208268,0.257958,2936
+iTransformer,exchange_rate,192,0,DADAPTER,0.189091,0.320128,361
+iTransformer,weather,336,0,DADAPTER,0.261386,0.297664,3515
+iTransformer,exchange_rate,336,0,DADAPTER,0.307599,0.406687,179
+iTransformer,weather,720,0,DADAPTER,0.335640,0.349868,5257
+iTransformer,exchange_rate,720,0,DADAPTER,0.891960,0.709417,147

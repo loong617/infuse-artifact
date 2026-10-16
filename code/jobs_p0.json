@@ -1,0 +1,716 @@
+[
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 1,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTh2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm1",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "ETTm2",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "weather",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "electricity",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "frozen",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "TAFAS",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "PETSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "COSA",
+"tag": "p0"
+},
+{
+"bb": "CycleNet",
+"ds": "traffic",
+"H": 96,
+"seed": 2024,
+"norm": 0,
+"method": "ReCycle",
+"tag": "p0",
+"env": {
+"RECYCLE_COMB": 1,
+"RECYCLE_POOL": 1,
+"RECYCLE_RPOOL": 1,
+"RECYCLE_COMBETA": 200
+}
+}
+]

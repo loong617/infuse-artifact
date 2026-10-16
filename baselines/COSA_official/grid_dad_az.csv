@@ -1,0 +1,8 @@
+iTransformer,azure_functions,96,0,DADAPTER,0.408611,0.338956,3694
+DLinear,azure_functions,96,0,DADAPTER,0.442723,0.369400,1229
+iTransformer,azure_functions,192,0,DADAPTER,0.548562,0.402447,3497
+DLinear,azure_functions,192,0,DADAPTER,0.588823,0.434237,1139
+iTransformer,azure_functions,336,0,DADAPTER,0.756059,0.487090,2228
+DLinear,azure_functions,336,0,DADAPTER,0.787548,0.514770,1252
+iTransformer,azure_functions,720,0,DADAPTER,1.200145,0.638175,2814
+DLinear,azure_functions,720,0,DADAPTER,1.242098,0.663833,1662

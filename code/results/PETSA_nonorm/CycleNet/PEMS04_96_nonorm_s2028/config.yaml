@@ -1,0 +1,182 @@
+DATA:
+  BASE_DIR: data/
+  DATE_IDX: 0
+  FEATURES: M
+  FREQ: h
+  LABEL_LEN: 48
+  NAME: PEMS04
+  N_VAR: 307
+  PERIOD_LEN: 24
+  PRED_LEN: 96
+  SCALE: standard
+  SEQ_LEN: 96
+  STATION_TYPE: adaptive
+  TARGET_START_IDX: 0
+  TEST_RATIO: 0.2
+  TIMEENC: 0
+  TRAIN_RATIO: 0.6
+DATA_LOADER:
+  DROP_LAST: true
+  NUM_WORKERS: 0
+  PIN_MEMORY: true
+DISHTS:
+  INIT: standard
+  RESULT_DIR: results/dishts/
+  TRAIN:
+    CHECKPOINT_DIR: results/dishts/
+MODEL:
+  LOSS_NAMES:
+  - MSE
+  METRIC_NAMES:
+  - MAE
+  NAME: CycleNet
+  activation: gelu
+  alpha: 1.0e-06
+  c_out: 307
+  channel_independence: true
+  cycle: 288
+  d_ff: 512
+  d_layers: 1
+  d_model: 512
+  dec_in: 307
+  dropout: 0.1
+  e_layers: 4
+  embed: timeF
+  enc_in: 307
+  factor: 3
+  freq: h
+  ignore_stamp: false
+  individual: false
+  instance_norm: true
+  label_len: 48
+  moving_avg: 25
+  n_heads: 8
+  output_attention: false
+  pred_len: 96
+  seq_len: 96
+  task_name: long_term_forecast
+NORMALIZE: NST
+NORM_MODULE:
+  ENABLE: false
+  NAME: SAN
+NUM_GPUS: 8
+RESULT_DIR: ./results/PETSA_nonorm/CycleNet/PEMS04_96_nonorm_s2028/
+REVIN:
+  AFFINE: true
+  EPS: 1.0e-05
+  RESULT_DIR: results/revin/
+  TRAIN:
+    CHECKPOINT_DIR: results/revin/
+SAN:
+  RESULT_DIR: results/station/
+  SOLVER:
+    BASE_LR: 0.001
+    COSINE_AFTER_WARMUP: false
+    COSINE_END_LR: 0.0
+    DAMPENING: 0.0
+    LR_POLICY: cosine
+    MAX_EPOCH: 10
+    MOMENTUM: 0.9
+    NESTEROV: true
+    OPTIMIZING_METHOD: adam
+    START_EPOCH: 0
+    WARMUP_EPOCHS: 0
+    WARMUP_START_LR: 0.001
+    WEIGHT_DECAY: 0.0001
+  TRAIN:
+    CHECKPOINT_DIR: results/station/
+SEED: 2028
+SOLVER:
+  BASE_LR: 0.0001
+  COSINE_AFTER_WARMUP: false
+  COSINE_END_LR: 0.0
+  DAMPENING: 0.0
+  LR_POLICY: cosine
+  MAX_EPOCH: 30
+  MOMENTUM: 0.9
+  NESTEROV: true
+  OPTIMIZING_METHOD: adam
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 0
+  WARMUP_START_LR: 0.001
+  WEIGHT_DECAY: 0.0001
+TEST:
+  BATCH_SIZE: 256
+  DROP_LAST: false
+  ENABLE: false
+  SHUFFLE: false
+  SPLIT: test
+TRAIN:
+  BATCH_SIZE: 256
+  BEST_LOWER: true
+  BEST_METRIC_INITIAL: .inf
+  CHECKPOINT_DIR: ./checkpoints/CycleNet/PEMS04_96_nonorm_s2028/
+  DROP_LAST: true
+  ENABLE: false
+  EVAL_PERIOD: 5
+  PRINT_FREQ: 100
+  RESUME: ''
+  SHUFFLE: true
+  SPLIT: train
+TTA:
+  COSA:
+    ADAPTER_TYPE: Linear
+    ADAPTIVE_LR: true
+    ADJUST_PRED: true
+    BATCH_SIZE: 25
+    BUFFER_CONTEXT_SIZE: 5
+    CONVERGENCE_THRESHOLD: 0.0001
+    FAST_ADAPTATION: true
+    HIDDEN_DIM: 64
+    L2_REG: 0.0001
+    MAX_LR: 0.005
+    MIN_LR: 0.0001
+    PAAS: false
+    PARTIAL_ADAPT: true
+    PARTIAL_STEPS: 0
+    PERIOD_N: 1
+    PER_BATCH_LR_RESET: true
+    POGT: true
+    SAVE_CSV: false
+    SAVE_PAAS_CSV: false
+    STEPS: 20
+    VAR_WISE_GATING: true
+  ENABLE: true
+  LOG: false
+  MODULE_NAMES_TO_ADAPT: cali
+  PETSA:
+    ADJUST_PRED: true
+    BATCH_SIZE: 64
+    CALI_MODULE: true
+    GATING_INIT: 0.01
+    GCM_VAR_WISE: true
+    HIDDEN_DIM: 128
+    LOSS_ALPHA: 0.1
+    PAAS: true
+    PERIOD_N: 1
+    RANK: 16
+    STEPS: 1
+  SOLVER:
+    BASE_LR: 0.005
+    DAMPENING: 0.0
+    MOMENTUM: 0.9
+    NESTEROV: true
+    OPTIMIZING_METHOD: adam
+    WEIGHT_DECAY: 0.0001
+  TAFAS:
+    ADJUST_PRED: true
+    BATCH_SIZE: 64
+    CALI_MODULE: true
+    GATING_INIT: 0.01
+    GCM_VAR_WISE: true
+    HIDDEN_DIM: 128
+    PAAS: true
+    PERIOD_N: 1
+    STEPS: 1
+VAL:
+  BATCH_SIZE: 256
+  DROP_LAST: false
+  SHUFFLE: false
+  SPLIT: val
+  VIS: false
+VISIBLE_DEVICES: 0

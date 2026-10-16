@@ -1,0 +1,1 @@
+test_mse: 0.2915, test_mae: 0.3768, train_mse: 0.4504, train_mae: 0.4075

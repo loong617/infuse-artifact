@@ -1,0 +1,16 @@
+PatchTST,azure_functions,96,0,frozen,0.408756,0.338228,20
+PatchTST,azure_functions,96,0,TAFAS,0.408013,0.341275,51
+PatchTST,azure_functions,96,0,PETSA,0.421871,0.346749,52
+PatchTST,azure_functions,96,0,COSA,0.409254,0.338299,102
+PatchTST,azure_functions,192,0,frozen,0.557279,0.408335,20
+PatchTST,azure_functions,192,0,TAFAS,0.556015,0.413261,48
+PatchTST,azure_functions,192,0,PETSA,0.564143,0.413289,53
+PatchTST,azure_functions,192,0,COSA,0.567959,0.413359,68
+PatchTST,azure_functions,336,0,frozen,0.769141,0.497118,23
+PatchTST,azure_functions,336,0,TAFAS,0.768729,0.507535,48
+PatchTST,azure_functions,336,0,PETSA,0.771443,0.500577,49
+PatchTST,azure_functions,336,0,COSA,0.913915,0.513271,59
+PatchTST,azure_functions,720,0,frozen,1.267369,0.664433,30
+PatchTST,azure_functions,720,0,TAFAS,1.309090,0.689527,55
+PatchTST,azure_functions,720,0,PETSA,1.255758,0.669898,57
+PatchTST,azure_functions,720,0,COSA,2.271767,0.717156,95

@@ -1,0 +1,44 @@
+{
+ "iTransformer_ETTh1_96": {
+  "H": 96,
+  "C": 7,
+  "update_ms": 1.5429596899224816,
+  "fuse_ms": 1.7535069767441842
+ },
+ "iTransformer_weather_96": {
+  "H": 96,
+  "C": 21,
+  "update_ms": 5.289657534246654,
+  "fuse_ms": 6.035844520547957
+ },
+ "PatchTST_ETTm1_96": {
+  "H": 96,
+  "C": 7,
+  "update_ms": 4.2189789115646725,
+  "fuse_ms": 5.193451020408136
+ },
+ "iTransformer_ETTh1_192": {
+  "H": 192,
+  "C": 7,
+  "update_ms": 3.33661679999999,
+  "fuse_ms": 3.2914272000000118
+ },
+ "iTransformer_ETTh1_336": {
+  "H": 336,
+  "C": 7,
+  "update_ms": 6.7564210084033585,
+  "fuse_ms": 6.74249075630252
+ },
+ "iTransformer_ETTh1_720": {
+  "H": 720,
+  "C": 7,
+  "update_ms": 20.546779807692268,
+  "fuse_ms": 21.06783461538458
+ },
+ "iTransformer_weather_720": {
+  "H": 720,
+  "C": 21,
+  "update_ms": 68.23219208633081,
+  "fuse_ms": 71.2112597122301
+ }
+}
